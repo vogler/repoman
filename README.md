@@ -26,4 +26,4 @@ In addition to a CLI also offer some TUI like [tig](https://github.com/jonas/tig
 - Overview of local repos (see above)
 - Actions sync things: commit and push, `hub sync`, WIP branches, patches to Dropbox?
 - Integrate [gitwatch](https://github.com/gitwatch/gitwatch) to keep a complete history on extra branch?
-- Make data from GitHub (issues, PRs) available offline: `hub issue`, `hub pr list` but allow to work offline and sync later.
+- Make data from GitHub (issues, PRs) available offline: `hub issue`, `hub pr list` but allow to work offline and sync later. Put all data in a meta-repo (e.g. `~/.repoman/github`) and sync via GitHub API?
