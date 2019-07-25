@@ -19,3 +19,11 @@ curl -s 'https://api.github.com/users/vogler/repos?sort=created' | jiq '.[].name
   - no remotes
 - Tools:
   - https://linux.die.net/man/1/mr
+
+# Features
+In addition to a CLI also offer some TUI like [tig](https://github.com/jonas/tig)?
+
+- Overview of local repos (see above)
+- Actions sync things: commit and push, `hub sync`, WIP branches, patches to Dropbox?
+- Integrate [gitwatch](https://github.com/gitwatch/gitwatch) to keep a complete history on extra branch?
+- Make data from GitHub (issues, PRs) available offline: `hub issue`, `hub pr list` but allow to work offline and sync later.
